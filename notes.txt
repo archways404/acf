@@ -1,0 +1,5 @@
+gcc -o afc afc.c -lcurl
+
+./afc "https://raw.githubusercontent.com/archways404/dotfiles/refs/heads/main/.clang-format"
+
+./afc
